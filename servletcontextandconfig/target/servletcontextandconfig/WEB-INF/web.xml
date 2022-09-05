@@ -1,0 +1,29 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>abc</servlet-name>
+    <servlet-class>ServletDemo</servlet-class>
+
+    <init-param>
+      <param-name>name</param-name>
+    <param-value>Gudi</param-value>
+    </init-param>
+
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>abc</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+
+  <context-param>
+    <param-name>name</param-name>
+    <param-value>Gugly</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>Education</param-name>
+    <param-value>B.Com</param-value>
+  </context-param>
+</web-app>

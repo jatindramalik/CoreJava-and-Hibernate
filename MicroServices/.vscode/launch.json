@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch AmazonShoppingApplication",
+            "request": "launch",
+            "mainClass": "com.rakhi.amazonshopping.AmazonShoppingApplication",
+            "projectName": "amazon-shopping"
+        },
+        {
+            "type": "java",
+            "name": "Launch PaymentServiceApplication",
+            "request": "launch",
+            "mainClass": "com.gugly.paymentservice.PaymentServiceApplication",
+            "projectName": "payment-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AmaserverApplication<amaserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.guddi.amaserver.AmaserverApplication",
+            "projectName": "amaserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
